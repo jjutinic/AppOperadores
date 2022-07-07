@@ -218,7 +218,7 @@ h2, h1{
 
     .content {
         position: absolute;
-        top: 45px;
+        top: 35px;
         left: 0;
         background: rgb(0, 0, 0);
         right: 0;
@@ -232,7 +232,7 @@ h2, h1{
 
     .tab label {
         background: rgb(0, 0, 0); 
-        padding: 15px; 
+        padding: 10px; 
         border: 2px solid rgb(250, 2, 2); 
         margin-left: 0px; 
         position: relative;

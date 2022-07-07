@@ -240,8 +240,13 @@ h2, h1{
         
     }
 
-    .p, p{
+    .p{
         font-size: 20px;
+        color: #b0b0fd;
+    }
+
+    p{
+        font-size: 30px;
         color: #dadaf8;
     }
 
@@ -250,5 +255,9 @@ h2, h1{
         background-size: cover;
         background-position: center center;
         height: calc(60vh - 80px);  
+    }
+
+    h2{
+        font-size: 12px;
     }
 }

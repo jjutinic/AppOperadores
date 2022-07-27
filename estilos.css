@@ -10,6 +10,41 @@ body{
     background: #000090;
 }
 
+
+/*.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 300%;
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+    height: calc(88vh - 50px);
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0%;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}*/
+
+
+
 nav{
     background: #000090;
     height: 80px;
@@ -72,10 +107,10 @@ li a.active, li a:hover{
 }
 
 section{
-    background: url(imagen1.jpg) no-repeat;
+    background: url(patio3.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: calc(92vh - 80px);  
+    height: calc(88vh - 50px);  
 }
 
 h2, h1{
@@ -83,8 +118,14 @@ h2, h1{
     padding: 2px 30px;
     font-size: 18px;
     color: #e8e8f6;
-    font-family: "castellar";
-    
+    font-family: "castellar";  
+}
+
+h3{
+    padding: 2px 30px;
+    font-size: 40px;
+    color: #e8e8f6;
+    font-family: "castellar";  
 }
 
 
@@ -167,13 +208,6 @@ h2, h1{
 
 
 
-
-
-
-
-
-
-
 @media (max-width: 952px){
     .enlace{
     padding-left: 20px;
@@ -249,10 +283,10 @@ h2, h1{
     }
 
     section{
-        background: url(imagen1.jpg) no-repeat;
+        background: url(patio3.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
-        height: calc(60vh - 80px);  
+        height: calc(40vh - 40px);  
     }
 
     h2{
@@ -266,4 +300,12 @@ h2, h1{
         border-radius: 3px;
         text-transform: uppercase;
     }
+
+    h3{
+        padding: 2px 30px;
+        font-size: 20px;
+        color: #e8e8f6;
+        font-family: "castellar";  
+    }
+
 }

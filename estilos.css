@@ -81,8 +81,8 @@ nav ul li{
 
 nav ul li a{
     color: #cde4f7;
-    font-size: 20px;
-    padding: 7px 13px;
+    font-size: 15px;
+    padding: 4px 8px;
     border-radius: 3px;
     text-transform: uppercase;
 }
@@ -113,11 +113,19 @@ section{
     height: calc(88vh - 50px);  
 }
 
-h2, h1{
+h1{
     
     padding: 2px 30px;
     font-size: 18px;
     color: #e8e8f6;
+    font-family: "castellar";  
+}
+
+h2{
+    
+    padding: 2px 30px;
+    font-size: 18px;
+    color: #ff0109;
     font-family: "castellar";  
 }
 
@@ -233,7 +241,7 @@ h3{
     }
     nav ul li{
         display: block;
-        margin: 30px 0;
+        margin: 20px 0;
         line-height: 30px;
     }
     nav ul li a{

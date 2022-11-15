@@ -7,7 +7,15 @@
 }
 
 body{
-    background: #000090;
+    background: #01016a;
+}
+
+
+.uno{
+    color:#070707;
+    height: 500px;
+    width:100%;
+    background: #000000;
 }
 
 
@@ -53,7 +61,7 @@ nav{
 
 .autor{
     background: #070707;
-    height: 140px;
+    height: 160px;
     width: 100%;
     
 }
@@ -135,8 +143,6 @@ h3{
     color: #e8e8f6;
     font-family: "castellar";  
 }
-
-
 
 
 
@@ -256,8 +262,6 @@ h3{
         left:0;
     }
 
-
-
     .content {
         position: absolute;
         top: 23px;
@@ -291,7 +295,7 @@ h3{
     }
 
     section{
-        background: url(patio3.jpg) no-repeat;
+        background: url(patio_1.jpg.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
         height: calc(47vh - 40px);  
@@ -314,6 +318,44 @@ h3{
         font-size: 20px;
         color: #e8e8f6;
         font-family: "castellar";  
+    }
+
+    h5{
+        padding: 4px 20px;
+        font-size: 42px;
+        color: rgb(255, 255, 255);
+        font-family: "Colonna mt";  
+    }
+
+
+    #uno{
+        color:#070707;
+        height: 290px;
+        width:95%;
+        background: #000000;
+        border-radius: 10%;
+    }
+
+    #dos{
+        color:#070707;
+        height: 370px;
+        width:95%;
+        background: #000000;
+        border-radius: 10%;
+    }
+    #tres{
+        color:#070707;
+        height: 350px;
+        width:95%;
+        background: #000000;
+        border-radius: 10%;
+    }
+    #cuatro{
+        color:#070707;
+        height: 530px;
+        width:95%;
+        background: #000000;
+        border-radius: 10%;
     }
 
 }

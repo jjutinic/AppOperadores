@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Velocidades</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">VELOCIDADES</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#v20km" onclick="seleccionar()">20km/hr</a></li>
+                    <li><a href="#v30km" onclick="seleccionar()">30km/hr</a></li>
+                    <li><a href="#" onclick="seleccionar()">40km/hr</a></li>
+                    <li><a href="#" onclick="seleccionar()">50km/hr</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+   
+
+    <!--  slyder  -->
+<div class="todo">
+      <div class="slider">
+        <span style="--i:6;"><a href="#"><img src="lobmo.jpg" alt=""></a></span>
+        <span style="--i:1;"><a href="#"><img src="vel60.jpg" alt=""></a></span>
+        <span style="--i:2;"><a href="#"><img src="vel50.jpg" alt=""></a></span>
+        <span style="--i:3;"><a href="#"><img src="vel40.jpg" alt=""></a></span>
+        <span style="--i:4;"><a href="#v20km"><img src="vel20.jpg" alt=""></a></span>
+        <span style="--i:5;"><a href="#"><img src="vel30.jpg" alt=""></a></span>
+      </div>
+</div>
+<br>
+
+<!--  20KM/HR  -->
+<section id="v20km">
+<div class="v20km">
+    <div>
+       <center><img src="vel30.jpg" width="80px" height="80px" alt=""></center>
+       <ol>
+       <li><h2> Eje ambiental</h2></li>
+       <li><h2> Portales</h2></li>
+       <li><h2> Puente aranda</h2></li>
+       <li><h2> Puente calle sexta-NQS</h2></li>
+       <li><h2> Estacion museo nacional</h2></li>
+       <li><h2> Patios</h2></li>
+       <li><h2> Entre calle 33 y 28-NQS</h2></li>
+    </ol>
+    </div>
+</div>
+</section>
+<br>
+
+
+<!--  30KM/HR  -->
+<section id="v30km">
+    <div class="v30km">
+        <div>
+           <center><img src="vel20.jpg" width="80px" height="80px" alt=""></center>
+           <ol>
+           <li><h2> Intersecciones, zonas de flujo peatonal</h2></li>
+           <li><h2> BOX coulvert caracas calle-80</h2></li>
+           <li><h2> BOX coulvert caracas calle-26</h2></li>
+           <li><h2> BOX coulvert Cra 3-calle26</h2></li>
+           <li><h2> Zonas de obras</h2></li>
+           <li><h2> Intercambiador calle 80-NQS</h2></li>
+           <li><h2> Intercambiador calle 80-Autonorte</h2></li>
+           <li><h2> Interseccion escuela militar</h2></li>
+           <li><h2> Puente calle 92-NQS</h2></li>
+           <li><h2> Deprimido calle 6-cra 10</h2></li>
+           <li><h2> Puente calle 80 escuela militar(occ-ori)</h2></li>
+           <li><h2> Conexiones entre NQS y calle 13</h2></li>
+        </ol>
+        </div>
+    </div>
+    </section>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
